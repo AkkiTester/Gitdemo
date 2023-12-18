@@ -1,0 +1,410 @@
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew
+$ git init
+Initialized empty Git repository in C:/Users/ADMIN/Desktop/GitNew/.git/
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git add .
+warning: LF will be replaced by CRLF in .metadata/.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.0.20230625-0847.xml.
+The file will have its original line endings in your working directory
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .metadata/.lock
+        new file:   .metadata/.log
+        new file:   .metadata/.mylyn/.taskListIndex/segments_1
+        new file:   .metadata/.mylyn/.taskListIndex/write.lock
+        new file:   .metadata/.mylyn/repositories.xml.zip
+        new file:   .metadata/.mylyn/tasks.xml.zip
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.history/29/70d518ed7b9d001e15d8f2c2d8125c3d
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.history/c0/f0fee3eb7b9d001e15d8f2c2d8125c3d
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.markers.snap
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.syncinfo.snap
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/GitNew/.indexes/af/history.index
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/GitNew/.markers.snap
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/GitNew/.syncinfo.snap
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+        new file:   .metadata/.plugins/org.eclipse.core.resources/0.snap
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs
+        new file:   .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+        new file:   .metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project
+        new file:   .metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/132487924.index
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/3084164905.index
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+        new file:   .metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+        new file:   .metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+        new file:   .metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+        new file:   .metadata/.plugins/org.eclipse.m2e.logback/0.log
+        new file:   .metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.0.20230625-0847.xml
+        new file:   .metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+        new file:   .metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties
+        new file:   .metadata/.plugins/org.eclipse.ui.intro/introstate
+        new file:   .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+        new file:   .metadata/version.ini
+        new file:   Akash.txt
+        new file:   GitNew/.classpath
+        new file:   GitNew/.project
+        new file:   GitNew/.settings/org.eclipse.core.resources.prefs
+        new file:   GitNew/.settings/org.eclipse.jdt.core.prefs
+        new file:   GitNew/bin/module-info.class
+        new file:   GitNew/src/module-info.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.markers.snap
+        modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.syncinfo.snap
+        modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/GitNew/.markers.snap
+        modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/GitNew/.syncinfo.snap
+        modified:   .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+        modified:   .metadata/.plugins/org.eclipse.core.resources/0.snap
+        modified:   .metadata/.plugins/org.eclipse.m2e.logback/0.log
+
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Akash.txt
+        GitNew/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Akash.txt
+        GitNew/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git add -A
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in GitNew/.gitignore.
+The file will have its original line endings in your working directory
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Akash.txt
+        new file:   GitNew/.classpath
+        new file:   GitNew/.gitignore
+        new file:   GitNew/.project
+        new file:   GitNew/.settings/org.eclipse.core.resources.prefs
+        new file:   GitNew/.settings/org.eclipse.jdt.core.prefs
+        new file:   GitNew/src/module-info.java
+
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git diff
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git diff
+diff --git a/Akash.txt b/Akash.txt
+index 84b11bb..1587806 100644
+--- a/Akash.txt
++++ b/Akash.txt
+@@ -1 +1,2 @@
+ Akash D
++ Change
+\ No newline at end of file
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git diff
+diff --git a/Akash.txt b/Akash.txt
+index 84b11bb..3db751d 100644
+--- a/Akash.txt
++++ b/Akash.txt
+@@ -1 +1,3 @@
+ Akash D
++ Change
++line 2
+\ No newline at end of file
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git diff
+diff --git a/Akash.txt b/Akash.txt
+index 84b11bb..24d0de8 100644
+--- a/Akash.txt
++++ b/Akash.txt
+@@ -1 +1,12 @@
+ Akash D
++ Change
++line 2
++
++
++
++
++
++
++1
++2
++12
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git diff
+diff --git a/Akash.txt b/Akash.txt
+index 84b11bb..24d0de8 100644
+--- a/Akash.txt
++++ b/Akash.txt
+@@ -1 +1,12 @@
+ Akash D
++ Change
++line 2
++
++
++
++
++
++
++1
++2
++12
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Akash.txt
+        new file:   GitNew/.classpath
+        new file:   GitNew/.gitignore
+        new file:   GitNew/.project
+        new file:   GitNew/.settings/org.eclipse.core.resources.prefs
+        new file:   GitNew/.settings/org.eclipse.jdt.core.prefs
+        new file:   GitNew/src/module-info.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Akash.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ad.txt
+
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git add ad
+fatal: pathspec 'ad' did not match any files
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Akash.txt
+        new file:   GitNew/.classpath
+        new file:   GitNew/.gitignore
+        new file:   GitNew/.project
+        new file:   GitNew/.settings/org.eclipse.core.resources.prefs
+        new file:   GitNew/.settings/org.eclipse.jdt.core.prefs
+        new file:   GitNew/src/module-info.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Akash.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ad.txt
+
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git add ad.txt
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Akash.txt
+        new file:   GitNew/.classpath
+        new file:   GitNew/.gitignore
+        new file:   GitNew/.project
+        new file:   GitNew/.settings/org.eclipse.core.resources.prefs
+        new file:   GitNew/.settings/org.eclipse.jdt.core.prefs
+        new file:   GitNew/src/module-info.java
+        new file:   ad.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Akash.txt
+
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git add -A
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Akash.txt
+        new file:   GitNew/.classpath
+        new file:   GitNew/.gitignore
+        new file:   GitNew/.project
+        new file:   GitNew/.settings/org.eclipse.core.resources.prefs
+        new file:   GitNew/.settings/org.eclipse.jdt.core.prefs
+        new file:   GitNew/src/module-info.java
+        new file:   ad.txt
+
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git commit -m "18-12-23_V1_First"
+[master (root-commit) 5acc720] 18-12-23_V1_First
+ 9 files changed, 65 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Akash.txt
+ create mode 100644 GitNew/.classpath
+ create mode 100644 GitNew/.gitignore
+ create mode 100644 GitNew/.project
+ create mode 100644 GitNew/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 GitNew/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 GitNew/src/module-info.java
+ create mode 100644 ad.txt
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git remote -V
+error: unknown switch `V'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git remote -v
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git log
+commit 5acc720422dfc6569448353d29640e39c294e6f6 (HEAD -> master)
+Author: Akash <akashdilwaleit@gmail.com>
+Date:   Mon Dec 18 13:54:20 2023 +0530
+
+    18-12-23_V1_First
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git remote add origin https://github.com/AkkiTester/Gitdemo.git
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git remote -v
+origin  https://github.com/AkkiTester/Gitdemo.git (fetch)
+origin  https://github.com/AkkiTester/Gitdemo.git (push)
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/AkkiTester/Gitdemo.git'
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (master)
+$ git branch -m master main
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git push -u origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (14/14), 1.45 KiB | 165.00 KiB/s, done.
+Total 14 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AkkiTester/Gitdemo.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git log
+commit 5acc720422dfc6569448353d29640e39c294e6f6 (HEAD -> main, origin/main)
+Author: Akash <akashdilwaleit@gmail.com>
+Date:   Mon Dec 18 13:54:20 2023 +0530
+
+    18-12-23_V1_First
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$
