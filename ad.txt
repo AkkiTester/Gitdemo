@@ -408,3 +408,185 @@ nothing to commit, working tree clean
 
 ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
 $
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git branch -A
+error: unknown switch `A'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git branch -a
+* main
+  remotes/origin/main
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ cls
+bash: cls: command not found
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git branch QA1
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git branch -a
+  QA1
+* main
+  remotes/origin/main
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git chekout QA1
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git checkout QA1
+Switched to branch 'QA1'
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git branch -a
+  QA1
+* main
+  remotes/origin/main
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git checkout QA1
+Switched to branch 'QA1'
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git branch -a
+* QA1
+  main
+  remotes/origin/main
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git remote -v
+origin  https://github.com/AkkiTester/Gitdemo.git (fetch)
+origin  https://github.com/AkkiTester/Gitdemo.git (push)
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git branch -v
+* QA1  8205566 18-12-23_V1_Second
+  main 8205566 18-12-23_V1_Second
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ touch a
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git status
+On branch QA1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Newfile.txt
+        a
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git add .
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git commit -m "19-12-PusingNewFile"
+[QA1 2d1ab75] 19-12-PusingNewFile
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Newfile.txt
+ create mode 100644 a
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git push -u origin QA1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 381 bytes | 381.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'QA1' on GitHub by visiting:
+remote:      https://github.com/AkkiTester/Gitdemo/pull/new/QA1
+remote:
+To https://github.com/AkkiTester/Gitdemo.git
+ * [new branch]      QA1 -> QA1
+Branch 'QA1' set up to track remote branch 'QA1' from 'origin'.
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git checkout QA1
+Switched to branch 'QA1'
+Your branch is up to date with 'origin/QA1'.
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (QA1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$ git branch -v
+  QA1  2d1ab75 19-12-PusingNewFile
+* main 8205566 18-12-23_V1_Second
+
+ADMIN@DESKTOP-28CK1DU MINGW64 ~/Desktop/GitNew (main)
+$
